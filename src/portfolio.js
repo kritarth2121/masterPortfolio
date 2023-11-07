@@ -528,6 +528,7 @@ const contactPageData = {
   },
 };
 
+
 export {
   settings,
   seo,

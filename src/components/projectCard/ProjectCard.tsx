@@ -1,19 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectLanguages from "../projectLanguages/ProjectLanguages";
-import { Fade } from "react-reveal";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Modal from "../Modal/Modal";
 
-export default function ProjectCard({ repo, theme }) {
-  function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+const Fade = require("react-reveal/Fade");
 
+export default function ProjectCard({ repo, theme }: any): React.JSX.Element {
+  const [visible, setVisible] = useState(false);
   return (
     <div className="tw-w-full" style={{ backgroundColor: theme.highlight }}>
       <Fade bottom duration={2000} distance="40px">
-        <div key={repo.id} className="tw-p-3">
+        <div
+          key={repo.id}
+          className="tw-p-3 tw-cursor-pointer"
+          onClick={() => setVisible(true)}
+        >
           <div className="tw-flex tw-flex-row tw-items-center tw-font-extrabold tw-space-x-4 tw-text-xl">
             <svg
               aria-hidden="true"
@@ -36,26 +38,36 @@ export default function ProjectCard({ repo, theme }) {
             {repo.description}
           </p>
 
-          <Carousel>
-            <div>
-              <img src="assets/1.jpeg" />
-              <p className="legend">Legend 1</p>
+          <Modal
+            visible={visible}
+            title={repo.name}
+            showCloseButton
+            closeOnOutsideClick
+            handleVisibility={setVisible}
+          >
+            <div className=" tw-w-[50rem] tw-h-[50rem]">
+            <Carousel>
+              <div>
+                <img src="assets/1.jpeg" />
+                <p className="legend">Legend 1</p>
+              </div>
+              <div>
+                <img src="assets/2.jpeg" />
+                <p className="legend">Legend 2</p>
+              </div>
+              <div>
+                <img src="assets/3.jpeg" />
+                <p className="legend">Legend 3</p>
+              </div>
+            </Carousel>
+            <div className="repo-details">
+              <ProjectLanguages
+                className="repo-languages"
+                logos={repo.languages}
+              />
             </div>
-            <div>
-              <img src="assets/2.jpeg" />
-              <p className="legend">Legend 2</p>
             </div>
-            <div>
-              <img src="assets/3.jpeg" />
-              <p className="legend">Legend 3</p>
-            </div>
-          </Carousel>
-          <div className="repo-details">
-            <ProjectLanguages
-              className="repo-languages"
-              logos={repo.languages}
-            />
-          </div>
+          </Modal>
         </div>
       </Fade>
     </div>

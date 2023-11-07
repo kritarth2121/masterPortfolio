@@ -27,10 +27,6 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <ProjectsImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
@@ -51,7 +47,7 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className=" tw-flex tw-flex-col tw-items-center tw-mt-5 tw-justify-center tw-space-y-6 tw-mx-4">
-          {ProjectsData.data.map((repo) => {
+          {ProjectsData.data?.map((repo) => {
             return <ProjectCard repo={repo} theme={theme} />;
           })}
         </div>
