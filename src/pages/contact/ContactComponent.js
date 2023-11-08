@@ -23,10 +23,10 @@ class Contact extends Component {
         <Header theme={theme} />
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
-            <div className="contact-heading-div tw-mb-10">
+            <div className="contact-heading-div mb-10">
               <div className="contact-heading-img-div">
                 <img
-                className="tw-h-[24rem] tw-rounded-full tw-w-[24rem]"
+                  className="h-[24rem] rounded-full w-[24rem]"
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                   alt=""
                 />

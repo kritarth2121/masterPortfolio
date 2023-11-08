@@ -33,7 +33,7 @@ class Header extends Component {
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon"></span>
             </label>
-            <ul className="menu" >
+            <ul className="menu">
               <li>
                 <NavLink
                   to="/home"
@@ -48,14 +48,14 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/education"
+                  to="/projects"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Education
+                  Projects
                 </NavLink>
               </li>
               <li>
@@ -70,18 +70,20 @@ class Header extends Component {
                   Experience
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
-                  to="/projects"
+                  to="/education"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Projects
+                  Education
                 </NavLink>
               </li>
+
               {settings.showOpenSource && (
                 <li>
                   <NavLink

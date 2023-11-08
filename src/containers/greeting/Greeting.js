@@ -15,17 +15,17 @@ export default function Greeting(props) {
           <div className="greeting-text-div">
             <div>
               <h1
-                className="greeting-text tw-font-semibold 
-            tw-bg-gradient-to-r tw-bg-clip-text  tw-text-transparent 
-            tw-from-indigo-500 tw-via-green-500 tw-to-indigo-500
-            tw-animate-text "
+                className="greeting-text font-semibold 
+            bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-green-500 to-indigo-500
+            animate-text "
               >
                 {greeting.title}
               </h1>
               {greeting.nickname && (
                 <h2
-                  className="greeting-nickname             animate-text
-                  tw-animate-bounce tw-animate-infinite tw-animate-ease-in"
+                  className="greeting-nickname
+                  animate-bounce animate-infinite animate-ease-in"
                   style={{ color: theme.text }}
                 >
                   ( {greeting.nickname} )
@@ -62,7 +62,7 @@ export default function Greeting(props) {
             <iframe
               src="https://www.youtube.com/embed/YJ4DjnHKo-4?autoplay=1&mute=1&hl=en&cc_lang_pref=en&cc_load_policy=1"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              className="tw-w-full tw-h-full"
+              className="w-full h-full"
               allowfullscreen
               frameborder="0"
             ></iframe>

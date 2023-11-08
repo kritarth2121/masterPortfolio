@@ -46,9 +46,9 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        <div className=" tw-flex tw-flex-col tw-items-center tw-mt-5 tw-justify-center tw-space-y-6 tw-mx-4">
+        <div className=" grid grid-cols-3 gap-8 mx-4">
           {ProjectsData.data?.map((repo) => {
-            return <ProjectCard repo={repo} theme={theme} />;
+            return <ProjectCard repo={repo} theme={theme} key={repo.id} />;
           })}
         </div>
         <Button

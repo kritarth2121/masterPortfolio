@@ -16,7 +16,7 @@ export default class Main extends Component {
     if (settings.isSplash) {
       return (
         <div>
-          {/* <ParticlesBackground theme={this.props.theme} /> */}
+          <ParticlesBackground theme={this.props.theme} />
           <HashRouter basename="/">
             <Switch>
               <Route
