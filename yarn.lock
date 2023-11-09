@@ -2247,6 +2247,11 @@
   resolved "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.5.tgz"
   integrity sha512-I3pkr8j/6tmQtKV/ZzHtuaqYSQvyjGRKH4go60Rr0IDLlFxuRT5V32uvB1mecM5G1EVAUyF/4r4QZ1GHgz+mxA==
 
+"@types/webpack-env@^1.18.4":
+  version "1.18.4"
+  resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.18.4.tgz#62879b0a9c653f9b1172d403b882f2045ecce032"
+  integrity sha512-I6e+9+HtWADAWeeJWDFQtdk4EVSAbj6Rtz4q8fJ7mSr1M0jzlFcs8/HZ+Xb5SHzVm1dxH7aUiI+A8kA8Gcrm0A==
+
 "@types/ws@^8.5.5":
   version "8.5.8"
   resolved "https://registry.npmjs.org/@types/ws/-/ws-8.5.8.tgz"

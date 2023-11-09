@@ -17,6 +17,7 @@
     "@types/node": "^20.8.10",
     "@types/react": "^18.2.36",
     "@types/react-dom": "^18.2.14",
+    "@types/webpack-env": "^1.18.4",
     "apollo-boost": "^0.4.4",
     "autoprefixer": "^10.4.16",
     "baseui": "^9.65.3",
