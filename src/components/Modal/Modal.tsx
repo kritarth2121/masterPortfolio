@@ -1,6 +1,6 @@
-import { Dialog, Transition } from '@headlessui/react';
-import React, { Fragment } from 'react';
-import { RxCross2 } from 'react-icons/rx';
+import { Dialog, Transition } from "@headlessui/react";
+import React, { Fragment } from "react";
+import { RxCross2 } from "react-icons/rx";
 
 interface ModalProps {
   children: React.ReactNode;
@@ -42,7 +42,7 @@ const Modal: React.FC<ModalProps> = (props: ModalProps) => {
         className="fixed inset-0 z-50 overflow-y-auto"
         onClose={closeModal}
       >
-        <div className="min-h-screen px-4 text-center">
+        <div className="min-h-screen text-center">
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -54,54 +54,49 @@ const Modal: React.FC<ModalProps> = (props: ModalProps) => {
           >
             <Dialog.Overlay className="fixed inset-0 bg-black/70" />
           </Transition.Child>
-
-          {/* This element is to trick the browser into centering the modal contents. */}
-          <span
-            className="inline-block h-screen align-middle"
-            aria-hidden="true"
-          >
-            &#8203;
-          </span>
-          <Transition.Child
-            as={Fragment}
-            enter="ease-out duration-300"
-            enterFrom="opacity-0 scale-95"
-            enterTo="opacity-100 scale-100"
-            leave="ease-in duration-200"
-            leaveFrom="opacity-100 scale-100"
-            leaveTo="opacity-0 scale-95"
-            afterLeave={afterLeave}
-          >
-            <div
-              className={`inline-block p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl w-fit rounded-2xl ${className}`}
-            >
-              <div>
-                <div className="flex justify-between">
-                  {title &&
-                    (typeof title === "string" ? (
-                      <Dialog.Title
-                        as="h3"
-                        className="text-lg font-medium leading-6 text-gray-900"
-                      >
-                        {title}
-                      </Dialog.Title>
-                    ) : (
-                      title
-                    ))}
-                  {/* {showCloseButton && ( */}
-                  <div className="fixed text-2xl hover:cursor-pointer font-black top-4 right-5">
-                    <RxCross2
-                      onClick={() => {
-                        closeModal();
-                      }}
-                    />
+          <div className="fixed inset-0 overflow-y-auto">
+            <div className="flex min-h-full items-center justify-center text-center">
+              <Transition.Child
+                as={Fragment}
+                enter="ease-out duration-300"
+                enterFrom="opacity-0 scale-95"
+                enterTo="opacity-100 scale-100"
+                leave="ease-in duration-200"
+                leaveFrom="opacity-100 scale-100"
+                leaveTo="opacity-0 scale-95"
+                afterLeave={afterLeave}
+              >
+                <div
+                  className={`inline-block overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl w-fit sm:rounded-2xl ${className}`}
+                >
+                  <div>
+                    <div className="flex justify-between">
+                      {title &&
+                        (typeof title === "string" ? (
+                          <Dialog.Title
+                            as="h3"
+                            className="text-lg font-medium leading-6 text-gray-900"
+                          >
+                            {title}
+                          </Dialog.Title>
+                        ) : (
+                          title
+                        ))}
+                      {showCloseButton && (
+                        <div
+                          className="fixed text-2xl font-black top-4 right-5 hover:cursor-pointer"
+                          onClick={closeModal}
+                        >
+                          <RxCross2 />
+                        </div>
+                      )}
+                    </div>
+                    {children}
                   </div>
-                  {/* )} */}
                 </div>
-                {children}
-              </div>
+              </Transition.Child>
             </div>
-          </Transition.Child>
+          </div>
         </div>
       </Dialog>
     </Transition>

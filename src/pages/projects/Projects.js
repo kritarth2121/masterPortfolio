@@ -46,7 +46,7 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        <div className=" grid grid-cols-3 gap-8 mx-4">
+        <div className=" grid md:grid-cols-3 grid-cols-1 gap-8 mx-4">
           {ProjectsData.data?.map((repo) => {
             return <ProjectCard repo={repo} theme={theme} key={repo.id} />;
           })}
