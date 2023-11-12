@@ -58,6 +58,9 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -81,8 +84,5 @@
   "lint-staged": {
     "*.json": "prettier-package-json --write",
     "*.{js,css,md}": "prettier --write"
-  },
-  "engines": {
-    "node": "16.16.0"
   }
 }
