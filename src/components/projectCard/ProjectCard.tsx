@@ -92,12 +92,24 @@ export default function ProjectCard({ repo, theme }: any): React.JSX.Element {
                   );
                 })}
               </p>
-              {repo?.liveUrl && (
-                <a href={repo?.liveUrl} target="_blank">
-                  {" "}
-                  {repo?.liveUrl}
-                </a>
-              )}
+              <div className="flex justify-between flex-row">
+                {repo?.liveUrl && (
+                  <div>
+                    <span className="font-bold">Live Url: </span>{" "}
+                    <a href={repo?.liveUrl} target="_blank">
+                      {repo?.liveUrl}
+                    </a>
+                  </div>
+                )}
+                {repo?.githubUrl && (
+                  <div>
+                    <span className="font-bold">Github Url: </span>
+                    <a href={repo?.githubUrl} target="_blank">
+                      {repo?.githubUrl}
+                    </a>
+                  </div>
+                )}
+              </div>
               <div className="repo-details">
                 <ProjectLanguages
                   className="repo-languages"

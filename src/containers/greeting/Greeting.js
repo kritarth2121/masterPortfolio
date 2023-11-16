@@ -60,7 +60,7 @@ export default function Greeting(props) {
 						></img> */}
             {/* <FeelingProud theme={theme} /> */}
             <iframe
-              src="https://www.youtube.com/embed/YJ4DjnHKo-4?autoplay=1&mute=1&hl=en&cc_lang_pref=en&cc_load_policy=1"
+              src={`${greeting.introYtVideo}?autoplay=1&mute=1&hl=en&cc_lang_pref=en&cc_load_policy=1`}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               className="w-full h-full"
               allowfullscreen

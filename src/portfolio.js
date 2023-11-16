@@ -29,6 +29,7 @@ const greeting = {
     "https://docs.google.com/document/d/1JD6Lu-JylTZ6EemZuqHM3vbbJhOHsMa9sxtj050QYS4/edit",
   portfolio_repository: "https://github.com/kritarth2121",
   githubProfile: "https://github.com/kritarth2121",
+  introYtVideo: "https://www.youtube.com/embed/YJ4DjnHKo-4",
 };
 
 const loader = {
@@ -527,7 +528,6 @@ const contactPageData = {
     subtitle: "",
   },
 };
-
 
 export {
   settings,
