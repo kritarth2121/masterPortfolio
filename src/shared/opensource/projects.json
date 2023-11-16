@@ -45,6 +45,7 @@
       ],
       "isFork": false,
       "homeImage": "briidge/screen1.png",
+      "liveUrl": "https://briidge.live/",
       "folder": "briidge",
       "imageType": "png",
       "noOfImages": 8
@@ -61,7 +62,26 @@
       ],
       "isFork": false,
       "homeImage": "fitbuddy/screen6.png",
+      "liveUrl": "https://www.fitbuddy.co.in/",
       "folder": "fitbuddy",
+      "imageType": "png",
+      "noOfImages": 6
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "My Personal Portfolio",
+      "description": [
+        "Conectar is an online learning platform that links people who want to learn English with native English speakers. We needed to take the complete classroom experience and make it as immersive as possible on the web.",
+        "To accomplish this, we needed to integrate many apps into the system, such as communication (video, audio, messagging), scheduling (for appointments), and so on, so I joined the company as a Frontend Engineer to build these products.",
+        "Because user experience was crucial for a learning platform, I hired a professional to create a new logo and mockups, produced a proposal, and developed the design system and a whole new marketing site based on those requirements.",
+        "I created all of the dashboard's user interfaces while integrating REST APIs.I designed all of the dashboard UIs, integrating REST APIs, and built the front-end of significant apps from the ground up, such as the message system, which was based on our Rails backend's API. It was difficult to integrate all of these features while keeping performance and usability in mind. There were some hiccups, but it finally became stable and included many of Facebook Messenger's main features, which were rather attractive.",
+        "I also collaborated with a colleague to create an appointment booking system for the product before moving on to work on the classroom app, which included a customized realtime whiteboard developed entirely from scratch, video and voice communications, and other tools to help students learn.The project was massive, with hundreds of thousands of lines of code driven by many technologies such as React, Rails, Sass, Redux, Webpacker, GoLang, Java, and others, and we frequently had to re-evaluate tactics for problems such as state management, performance, and development workflow. "
+      ],
+      "isFork": false,
+      "homeImage": "portfolio/screen1.png",
+      "liveUrl": "https://kritarth.netlify.app/",
+      "githubUrl": "https://github.com/kritarth2121/masterPortfolio",
+      "folder": "portfolio",
       "imageType": "png",
       "noOfImages": 6
     }
