@@ -5,7 +5,7 @@
       "name": "Hellotax",
       "liveUrl": "https://app.hellotax.com",
       "description": [
-        "hellotax is a VAT compliance automation program designed for multi-channel retailers in Europe.",
+        "Hellotax is a VAT compliance automation program designed for multi-channel retailers in Europe.",
         "The company already had a working web app, but they required a professional to design an altogether new experience using cutting-edge technologies to maximize speed and give an optimal user experience as their customer base grew. Because data is at the heart of the product, there was a lot of data processing and manipulation that needed to happen quickly.",
         "With this knowledge, I assessed the existing platform, began recording faults, and devised tactics to address them. We chose ReactJs since their in-house team was better experienced with it.I bootstrapped the project, and the designated MVP, which comprised a partial component library geared for accessibility, was available in a few weeks.",
         "Typically, systems that require a large amount of data manipulation and various computations opt to perform these activities on the server. However, because we were dealing with extremely large amounts of data (up to megabytes at times), the round trip time (RTT) was quite long, resulting in delayed updates. To address this, I had to construct a large portion of the processing and manipulation logic on the frontend while leaving particular computing tasks and business logic for the backend.",
@@ -37,7 +37,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Briidge",
       "description": [
-        "Briidge is a collaboration platform, designed to help tems launch marketing campaigns faster.",
+        "Briidge is a collaboration platform, designed to help teams launch marketing campaigns faster.",
         "In its current form you can manage all your marketing agencies projects, add your clients and communicate directly with absolute transparency and efficiency. The only time you’ll leave the app is to actually work on an asset, otherwise everything happens on Briidge.",
         "I built their platform from scratch, I worked as a fullstack developer. ",
         "The project is built with React, Mongodb, ExpressJs, Redis, and NodeJs."
