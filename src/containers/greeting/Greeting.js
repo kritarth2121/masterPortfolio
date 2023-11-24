@@ -54,18 +54,18 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
+            <img
+              alt="saad sitting on table"
+              src={require("../../assests/images/greeting.gif")}
+            ></img>
             {/* <FeelingProud theme={theme} /> */}
-            <iframe
+            {/* <iframe
               src={`${greeting.introYtVideo}?autoplay=1&mute=1&hl=en&cc_lang_pref=en&cc_load_policy=1`}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               className="w-full h-full"
               allowfullscreen
               frameborder="0"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>

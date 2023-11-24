@@ -28,7 +28,7 @@ export default function ProjectCard({ repo, theme }: any): React.JSX.Element {
         >
           <div className="relative  overflow-hidden">
             <img
-              className="w-full  h-full hover:scale-110 transition-all duration-500 cursor-pointer"
+              className="w-full  aspect-video h-full hover:scale-110 transition-all duration-500 cursor-pointer"
               src={require(`../../assests/images/work-images/${repo["homeImage"]}`)}
               alt=""
             />
