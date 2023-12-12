@@ -1,82 +1,148 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Hellotax",
-      "liveUrl": "https://app.hellotax.com",
-      "description": [
-        "Hellotax is a VAT compliance automation program designed for multi-channel retailers in Europe.",
-        "The company already had a working web app, but they required a professional to design an altogether new experience using cutting-edge technologies to maximize speed and give an optimal user experience as their customer base grew. Because data is at the heart of the product, there was a lot of data processing and manipulation that needed to happen quickly.",
-        "With this knowledge, I assessed the existing platform, began recording faults, and devised tactics to address them. We chose ReactJs since their in-house team was better experienced with it.I bootstrapped the project, and the designated MVP, which comprised a partial component library geared for accessibility, was available in a few weeks.",
-        "Typically, systems that require a large amount of data manipulation and various computations opt to perform these activities on the server. However, because we were dealing with extremely large amounts of data (up to megabytes at times), the round trip time (RTT) was quite long, resulting in delayed updates. To address this, I had to construct a large portion of the processing and manipulation logic on the frontend while leaving particular computing tasks and business logic for the backend.",
-        "Now, it's easy to go wrong and pollute data in these computations, so I created a bunch of fail-safe optimized utility libraries that implemented solid type-checks and validation techniques to ensure fast, yet accurate data diffing and transformation work to preserve the integrity of the information displayed and minimize runtime errors and unusability. After nine months of work, we were finally ready to launch the beta version. It not only met but exceeded expectations, outperforming the previous edition in terms of speed, accessibility, and dependability."
-      ],
-      "isFork": false,
-      "imageType": "png",
-      "homeImage": "hellotax/screen6.png",
-      "folder": "hellotax",
-      "noOfImages": 18
+      "id": "R_kgDOK09B-w",
+      "name": "documenso",
+      "createdAt": "2023-12-02T21:56:23Z",
+      "url": "https://github.com/kritarth2121/documenso",
+      "description": "The Open Source DocuSign Alternative.",
+      "isFork": true,
+      "languages": [
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        }
+      ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Conectar",
-      "description": [
-        "Conectar is an online learning platform that links people who want to learn English with native English speakers. We needed to take the complete classroom experience and make it as immersive as possible on the web.",
-        "To accomplish this, we needed to integrate many apps into the system, such as communication (video, audio, messagging), scheduling (for appointments), and so on, so I joined the company as a Frontend Engineer to build these products.",
-        "Because user experience was crucial for a learning platform, I hired a professional to create a new logo and mockups, produced a proposal, and developed the design system and a whole new marketing site based on those requirements.",
-        "I created all of the dashboard's user interfaces while integrating REST APIs.I designed all of the dashboard UIs, integrating REST APIs, and built the front-end of significant apps from the ground up, such as the message system, which was based on our Nodejs backend's API. It was difficult to integrate all of these features while keeping performance and usability in mind. There were some hiccups, but it finally became stable and included many of Facebook Messenger's main features, which were rather attractive.",
-        "I also collaborated with a colleague to create an appointment booking system for the product before moving on to work on the classroom app, which included a customized realtime whiteboard developed entirely from scratch, video and voice communications, and other tools to help students learn.The project was massive, with hundreds of thousands of lines of code driven by many technologies such as React, NodeJs, Sass, Redux, Webpacker, GoLang, Java, and others, and we frequently had to re-evaluate tactics for problems such as state management, performance, and development workflow. "
-      ],
+      "id": "MDEwOlJlcG9zaXRvcnk0MDA4NzY3MDM=",
+      "name": "ML-Chat-App",
+      "createdAt": "2021-08-28T19:42:20Z",
+      "url": "https://github.com/kritarth2121/ML-Chat-App",
+      "description": "Machine Learning Chat App",
       "isFork": false,
-      "homeImage": "conectar/screen6.jpg",
-      "folder": "conectar",
-      "imageType": "jpg",
-      "noOfImages": 18
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Briidge",
-      "description": [
-        "Briidge is a collaboration platform, designed to help teams launch marketing campaigns faster.",
-        "In its current form you can manage all your marketing agencies projects, add your clients and communicate directly with absolute transparency and efficiency. The only time you’ll leave the app is to actually work on an asset, otherwise everything happens on Briidge.",
-        "I built their platform from scratch, I worked as a fullstack developer. ",
-        "The project is built with React, Mongodb, ExpressJs, Redis, and NodeJs."
-      ],
+      "id": "MDEwOlJlcG9zaXRvcnkzMzQ2MTMyNjY=",
+      "name": "Netflix-Clone-ReactJS-master",
+      "createdAt": "2021-01-31T09:00:57Z",
+      "url": "https://github.com/kritarth2121/Netflix-Clone-ReactJS-master",
+      "description": "hosted at kritarth-netflix.netlify.app",
       "isFork": false,
-      "homeImage": "briidge/screen1.png",
-      "liveUrl": "https://briidge.live/",
-      "folder": "briidge",
-      "imageType": "png",
-      "noOfImages": 8
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Fitbuddy",
-      "description": [
-        "FitBuddy is an AI based virtual fitness platform that provides affordable and accessible personalized training through continuous instructions and real time feedback, and brings together a large pool of fitness trainers and trainees.",
-        "I worked as a fullstack developer there, I made their platform mobile responsive, imporved UI, and added Video Calling Feature, Live Chat feature etc"
-      ],
+      "id": "MDEwOlJlcG9zaXRvcnkzNjc3MzM3MTk=",
+      "name": "Quora-clone",
+      "createdAt": "2021-05-15T21:34:24Z",
+      "url": "https://github.com/kritarth2121/Quora-clone",
+      "description": null,
       "isFork": false,
-      "homeImage": "fitbuddy/screen6.png",
-      "liveUrl": "https://www.fitbuddy.co.in/",
-      "folder": "fitbuddy",
-      "imageType": "png",
-      "noOfImages": 6
+      "languages": [
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "My Personal Portfolio",
-      "description": [
-        "Its My personal Portfolio built with React Js.",
-        "I have showed my projects, experience,education and skills in this portfolio."
-      ],
+      "id": "R_kgDOKqnuAA",
+      "name": "masterPortfolio",
+      "createdAt": "2023-11-07T20:19:46Z",
+      "url": "https://github.com/kritarth2121/masterPortfolio",
+      "description": "portfolio for developers",
       "isFork": false,
-      "homeImage": "portfolio/screen1.png",
-      "liveUrl": "https://kritarth.netlify.app/",
-      "githubUrl": "https://github.com/kritarth2121/masterPortfolio",
-      "folder": "portfolio",
-      "imageType": "png",
-      "noOfImages": 6
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOHKSi0g",
+      "name": "kritarth-twitter-frontend",
+      "createdAt": "2022-04-11T21:05:56Z",
+      "url": "https://github.com/kritarth2121/kritarth-twitter-frontend",
+      "description": null,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
     }
   ]
 }

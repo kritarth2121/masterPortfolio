@@ -1,3 +1,9 @@
 {
-    
+  "data": [
+    {
+      "login": "documenso",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127681099?v=4",
+      "__typename": "Organization"
+    }
+  ]
 }

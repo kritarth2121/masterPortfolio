@@ -1,3 +1,96 @@
 {
-    
+  "closed": 1,
+  "data": [
+    {
+      "id": "PR_kwDOJInNk85g_Z8y",
+      "title": "fix: add workspace settings for eol and tabs",
+      "url": "https://github.com/documenso/documenso/pull/725",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13398220?u=ba7b64d5b37f5d7662239454cccd78666b56ae94&v=4",
+        "url": "https://github.com/Mythie",
+        "login": "Mythie"
+      },
+      "createdAt": "2023-12-03T18:36:06Z",
+      "number": 725,
+      "changedFiles": 1,
+      "additions": 4,
+      "deletions": 1,
+      "baseRepository": {
+        "name": "documenso",
+        "url": "https://github.com/documenso/documenso",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/127681099?v=4",
+          "login": "documenso",
+          "url": "https://github.com/documenso"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJInNk85g_P41",
+      "title": "feat : Document Thumbnails",
+      "url": "https://github.com/documenso/documenso/pull/723",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2023-12-03T16:21:28Z",
+      "number": 723,
+      "changedFiles": 12,
+      "additions": 255,
+      "deletions": 41,
+      "baseRepository": {
+        "name": "documenso",
+        "url": "https://github.com/documenso/documenso",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/127681099?v=4",
+          "login": "documenso",
+          "url": "https://github.com/documenso"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOJInNk85g-EcO",
+      "title": "feat: add document search to the command menu",
+      "url": "https://github.com/documenso/documenso/pull/714",
+      "state": "CLOSED",
+      "mergedBy": null,
+      "createdAt": "2023-12-02T22:58:39Z",
+      "number": 714,
+      "changedFiles": 4,
+      "additions": 138,
+      "deletions": 6,
+      "baseRepository": {
+        "name": "documenso",
+        "url": "https://github.com/documenso/documenso",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/127681099?v=4",
+          "login": "documenso",
+          "url": "https://github.com/documenso"
+        }
+      }
+    },
+    {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzE2MTI2MTcw",
+      "title": "Update requirements.txt",
+      "url": "https://github.com/gunthercox/ChatterBot/pull/2191",
+      "state": "OPEN",
+      "mergedBy": null,
+      "createdAt": "2021-08-19T17:24:56Z",
+      "number": 2191,
+      "changedFiles": 1,
+      "additions": 173,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "ChatterBot",
+        "url": "https://github.com/gunthercox/ChatterBot",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2030578?v=4",
+          "login": "gunthercox",
+          "url": "https://github.com/gunthercox"
+        }
+      }
+    }
+  ],
+  "merged": 1,
+  "open": 2,
+  "totalCount": 4
 }

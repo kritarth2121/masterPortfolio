@@ -13,6 +13,7 @@ export default function ProjectCard({ repo, theme }: any): React.JSX.Element {
   useEffect(() => {
     console.log("visible", visible);
   }, [visible]);
+  
   return (
     <Fade bottom duration={2000} distance="40px">
       <div
