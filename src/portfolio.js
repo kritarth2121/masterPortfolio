@@ -47,7 +47,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "www.linkedin.com/in/kritarth-sharma-15721216b/",
+    link: "https://linkedin.com/in/kritarth-sharma-15721216b/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
